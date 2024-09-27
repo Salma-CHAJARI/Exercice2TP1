@@ -44,7 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                if(surface.getText()!=null && nbrpiece.getText()!=null){
+                if(surface.getText().toString().isEmpty() || nbrpiece.getText().toString().isEmpty()){
+                    Toast.makeText(MainActivity.this, "Remplir les champs obligatoire", Toast.LENGTH_LONG).show();
+                }else{
                     impotBase=Integer.parseInt(surface.getText().toString())*2;
                     if(piscine.isChecked()) {
                         impotSup = (Integer.parseInt(nbrpiece.getText().toString()) * 50) + 100;
@@ -58,8 +60,6 @@ public class MainActivity extends AppCompatActivity {
                     txt2.setText(String.valueOf(impotSup));
                     impt.setText("Impôts totale:");
                     txt3.setText(String.valueOf(totale));
-                }else{
-                    Toast.makeText(MainActivity.this, "Remplir les champs obligatoire", Toast.LENGTH_LONG).show();
                 }
             }
         });
