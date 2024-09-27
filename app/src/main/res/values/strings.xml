@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exercice2TP1</string>
+    <string name="titre">Calcul des impôts locaux</string>
+    <string name="nom">Nom:</string>
+    <string name="adresse">Adresse:</string>
+    <string name="surface">Surface:</string>
+    <string name="nbrpieces">Nombre de pièces:</string>
+</resources>
