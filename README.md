@@ -23,11 +23,6 @@ L'application mobile a pour objectif de calculer les impôts locaux d’un véhi
 
 L'objectif de ce projet est de réaliser des calculs et d'afficher les données après avoir effectué un clic, tout en prenant en compte des conditions déjà définies.
 
-## Écrans
-
-- **Écran d'Habitation** : Représenté dans la figure 1.5, cet écran permet à l'utilisateur de saisir les informations nécessaires.
-- **Vérification du Champ Surface** : Représenté dans la figure 1.6, cet écran montre la vérification du champ surface avant de calculer le résultat.
-
 ## Prérequis
 
 - Android Studio
